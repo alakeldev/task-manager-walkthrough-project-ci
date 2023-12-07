@@ -29,3 +29,18 @@ __init__.py file:
 
 #  pip freeze | grep Flask
 use this command to know which version you are using for the project Flask and Flask-SQLAlchemy
+
+
+
+
+
+## if you want create new database coonect to postgres on terminal and write as per below:
+
+psql -U postgres
+
+
+CREATE DATABASE taskmanager;
+
+\c taskmanager;
+
+\q
